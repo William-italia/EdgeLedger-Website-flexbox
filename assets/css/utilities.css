@@ -1,0 +1,27 @@
+:root {
+    --primary-color: #ff7411;
+    --text-color-light: #fff;
+    --text-color-dark: #000;
+    --bg-dark: #333;
+    --bg-light: #fff;
+}
+
+.text-primary-color {
+    color: var(--primary-color);
+}
+
+
+ /* btn  */
+.btn {
+    padding: 1rem 2rem;
+}
+
+/* Btn colors */
+.btn-color {
+    background: var(--primary-color);
+    color: var(--text-color-light);
+}
+
+.btn-dark {
+    background: var();
+}

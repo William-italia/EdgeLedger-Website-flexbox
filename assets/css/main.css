@@ -17,7 +17,7 @@ body {
     background: url(../img/home/showcase.jpg) no-repeat center center;
     position: relative;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     z-index: 1;
 }
 
@@ -38,7 +38,17 @@ body {
 }
 
 .logo {
-    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo i, .logo h1 {
+    font-size: 1.5rem;
+}
+
+.logo i {
+    padding: 0 .5rem;
 }
 
 .navbar-flex {
@@ -75,7 +85,7 @@ body {
     border-bottom: 1px solid green;
 }
 
-.show-content {
+#show-content {
     height: 80%;
     width: 100%;
     display: flex;
@@ -83,4 +93,18 @@ body {
     align-items: center;
     justify-content: center;
     color: #fff;
+}
+
+#show-content h1 {
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+
+#show-content p {
+    font-size: 1.2rem;
+    margin: 2rem 0;
+}
+
+.btn i {
+    margin-right: .5rem;
 }
