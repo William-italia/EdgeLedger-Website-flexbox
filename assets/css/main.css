@@ -71,6 +71,7 @@ body {
 }
 
 .navbar-flex ul li:hover {
+    background: #ffffff09;
     border-bottom: 1px solid green;
 }
 
