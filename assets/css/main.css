@@ -111,14 +111,43 @@ body {
 
 #show-content p {
     font-size: 1.2rem;
-    margin: 1rem 0 2.5rem 0;
+    margin: 1rem 0 2rem 0;
 }
 
+#show-content p.btn {
+    font-size: 1rem;
+    transition: .5s all ease;
+}
 
-.btn i {
+#show-content p.btn:hover {
+    background: var(--primary-color-dark);
+}
+
+.chevron {
+    transition: .5s all ease;
     margin-right: .5rem;
 }
 
-#about {
-    height: 100vh;
+#show-content .btn:hover .chevron{
+    margin-right: 0rem;
+}
+
+/* about icons */
+.flex-items {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.flex-items .box-icon i{
+    background: var(--primary-color);
+    padding: .8rem;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+    color: var(--color-light);
+}
+
+.flex-items .box-icon {
+    line-height: 1.7em;
 }
