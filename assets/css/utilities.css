@@ -10,10 +10,15 @@
     color: var(--primary-color);
 }
 
-
+.text-light-color {
+    color: var(--text-color-light);
+}
  /* btn  */
 .btn {
     padding: 1rem 2rem;
+    border: none;
+    border-radius: .2rem;
+    cursor: pointer;
 }
 
 /* Btn colors */
@@ -24,4 +29,11 @@
 
 .btn-dark {
     background: var();
+}
+
+/* backgrounds */
+
+.bg-dark {
+    background: var(--bg-dark);
+    color: var(--text-color-light);
 }
