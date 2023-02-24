@@ -14,12 +14,14 @@
 .text-light-color {
     color: var(--text-color-light);
 }
+
  /* btn  */
 .btn {
     padding: 1rem 2rem;
     border: none;
     border-radius: .2rem;
     cursor: pointer;
+    display: inline-block;
 }
 
 /* Btn colors */
@@ -29,9 +31,15 @@
 }
 
 .btn-dark {
-    background: var();
+    background: var(--bg-dark);
+    color: var(--color-light);
 }
 
+.btn-outline {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
 /* backgrounds */
 .bg-color {
     background: var(--primary-color);
