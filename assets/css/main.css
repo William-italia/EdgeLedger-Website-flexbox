@@ -151,3 +151,42 @@ body {
 .flex-items .box-icon {
     line-height: 1.7em;
 }
+
+/* solutions */
+.solutions-flex {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.content-column-flex {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+ }
+
+.content-column-flex h4{
+    margin-bottom: 1rem;
+    line-height: 2rem;
+    font-weight: 700;
+}
+
+.content-column-flex h3{
+    font-weight: 200;
+    font-size: 2rem;
+    line-height: 4rem;
+}
+
+.content-column-flex p{
+    line-height: 1.4rem;
+    font-weight: 500;
+
+}
+
+.content-column-flex a{
+    margin-top: 2rem;
+    border: 1px solid var(--color-light);
+    display: inline-block;
+}

@@ -33,8 +33,17 @@
 }
 
 /* backgrounds */
+.bg-color {
+    background: var(--primary-color);
+    color: var(--color-light);
+}
 
 .bg-dark {
     background: var(--bg-dark);
     color: var(--text-color-light);
+}
+
+.bg-light {
+    background: var(--bg-light);
+    color: var(--color-dark);
 }
