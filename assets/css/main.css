@@ -143,13 +143,19 @@ body {
 
 .flex-items .box-icon i{
     background: var(--primary-color);
-    padding: .8rem;
+    padding: 1rem;
     border-radius: 50%;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     color: var(--color-light);
 }
 
+.flex-items .box-icon h3{
+    font-size: 1.4rem;
+    margin-bottom: .5rem;
+}
+
 .flex-items .box-icon {
+    padding: 1rem;
     line-height: 1.7em;
 }
 
