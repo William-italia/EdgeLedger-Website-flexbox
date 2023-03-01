@@ -243,8 +243,8 @@ body {
 
 .cases-1 > div > img, .cases-2 >div > img {
     display: inline-block;
-    width: 18rem;
-    height: 14rem;
+    width: 20rem;
+    height: 16rem;
     padding: 1rem;
 }
 
