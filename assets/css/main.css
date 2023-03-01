@@ -138,7 +138,7 @@ body {
     justify-content: space-between;
     text-align: center;
     padding: 3rem;
-    color: var(--color-light);
+    color: var(--color-dark);
 }
 
 .flex-items .box-icon i{
@@ -197,3 +197,61 @@ body {
 }
 
 /* cases */
+
+.cases-flex {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.cases-header {
+    padding: 4rem 0 2rem 0;
+    line-height: 3rem;
+}
+.cases-header h4 {
+    font-size: 1rem;
+}
+.cases-header h2 {
+    font-weight: 1;
+    font-size: 2.5rem;
+}
+.cases-header p {
+    font-weight: 100;
+    font-size: 1.2rem;
+}
+
+.cases-content {
+    width: 100%;
+    height: 100%;
+}
+
+.cases-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.cases-1, .cases-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cases-1 > div > img, .cases-2 >div > img {
+    display: inline-block;
+    width: 18rem;
+    height: 14rem;
+    padding: 1rem;
+}
+
+.img > img {
+    transition: .5s ease-in-out;
+}
+
+.img > img:hover {
+    transform: scale(1.2);
+}
