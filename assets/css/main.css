@@ -15,6 +15,7 @@ a {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 
 #home {
@@ -257,6 +258,42 @@ body {
     transform: scale(1.2);
 }
 
+/* solutions 2 */
 .solutions-2 {
     margin-top: 2rem ;
+}
+
+/* team */
+.team-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    line-height: 2em;
+}
+
+.team-header h2 {
+    font-size: 2.4rem;
+    font-weight: 100;
+    line-height: 1.8em;
+}
+
+.team-container {
+    display: flex;
+    line-height: 1.7em;
+}
+
+.team-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-box img {
+    width: 60%;
+    height: 100%;
+    border-radius: 50%;
+    padding-bottom: 1rem;
 }
