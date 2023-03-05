@@ -14,6 +14,7 @@ a {
 }
 
 body {
+    overflow-x: hidden;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -259,4 +260,36 @@ body {
 
 .solutions-2 {
     margin-top: 2rem ;
+}
+
+/* contact */
+#contact {
+    background: #ddd;
+}
+.contact-container {
+    display: flex;
+    align-items: center;
+}
+
+.contact-form {
+    padding: 2rem;
+}
+
+.contact-form form h2 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+}
+
+.contact-box {
+    padding: .8rem 0;
+}
+
+.contact-box input {
+    width: 100%;
+    padding: 1rem;
+}
+
+.contact-form form button {
+    display: inline-block;
+    width: 100%;
 }
