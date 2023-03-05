@@ -59,6 +59,7 @@ body {
     width: 100%;
     justify-content: space-between;
     padding:  0 2rem;
+    background-color: #000;
 }
 
 .navbar-flex ul {
@@ -254,4 +255,8 @@ body {
 
 .img > img:hover {
     transform: scale(1.2);
+}
+
+.solutions-2 {
+    margin-top: 2rem ;
 }
