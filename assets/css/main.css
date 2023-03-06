@@ -16,6 +16,7 @@ a {
 body {
     overflow-x: hidden;
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 
 #home {
@@ -258,10 +259,12 @@ body {
     transform: scale(1.2);
 }
 
+/* solutions 2 */
 .solutions-2 {
     margin-top: 2rem ;
 }
 
+<<<<<<< HEAD
 /* contact */
 #contact {
     background: #ddd;
@@ -293,3 +296,39 @@ body {
     display: inline-block;
     width: 100%;
 }
+=======
+/* team */
+.team-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    line-height: 2em;
+}
+
+.team-header h2 {
+    font-size: 2.4rem;
+    font-weight: 100;
+    line-height: 1.8em;
+}
+
+.team-container {
+    display: flex;
+    line-height: 1.7em;
+}
+
+.team-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-box img {
+    width: 60%;
+    height: 100%;
+    border-radius: 50%;
+    padding-bottom: 1rem;
+}
+>>>>>>> d602b9a3976ad1776eb7bd9e50e3eb7d763cff6d
