@@ -342,6 +342,23 @@ body {
     padding-bottom: 1rem;
 }
 
-footer {
-    height: 50vh;
+/* FOOTER */
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.footer .social {
+    padding: 1rem;
+}
+
+.footer .social i {
+    padding: 0 .8rem;
+}
+
+.footer p {
+    color: #fff;
 }
