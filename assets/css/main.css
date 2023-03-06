@@ -268,14 +268,21 @@ body {
 /* contact */
 #contact {
     background: #ddd;
+    margin-top: 1rem;
+    width: 100%;
 }
+
 .contact-container {
     display: flex;
     align-items: center;
 }
-
+.contact-img img{
+    height: 35rem;
+    display: block;
+}
 .contact-form {
-    padding: 2rem;
+    width: 100%;
+    padding: 4rem;
 }
 
 .contact-form form h2 {
@@ -332,3 +339,6 @@ body {
     padding-bottom: 1rem;
 }
 
+footer {
+    height: 50vh;
+}
