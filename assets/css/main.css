@@ -168,8 +168,8 @@ body {
     justify-content: center;
 }
 
-.solutions-flex .image-column img {
-    height: 100%;
+.image-column img {
+    height: 35rem;
 }
 
 .content-column-flex {
@@ -264,6 +264,9 @@ body {
     margin-top: 2rem ;
 }
 
+.blog-img img{
+    display: block;
+}
 
 /* contact */
 #contact {
